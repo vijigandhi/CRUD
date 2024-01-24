@@ -1,0 +1,99 @@
+tr,td
+{
+    border: 1px solid;
+    height: 50px;
+    width: 100px;
+    padding-left: 30px;
+    background-color:rgb(219, 216, 216);
+}
+
+th
+{
+    padding-left: 30px;
+}
+
+body
+{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(144, 230, 245);
+}
+.container1
+{
+    margin-top: 5%;
+    padding-left: 10%;
+}
+
+.container2
+{
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#edit
+{
+    height: 30px;
+    width: 50px;
+    border: 0;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border-radius: 20%;
+    margin-top: 8%;
+    position: relative;
+    left: 0%;
+} 
+
+#delete
+{
+    height: 30px;
+    width: 50px;
+    border: 0;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border-radius: 20%;
+    position: relative;
+    left: 5%;
+}
+
+#submit_btn
+{
+    margin-top: 10%;
+    border: 0;
+    width: 45%;
+    height: 40px;
+    background-color: rgb(48, 129, 23);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#reset_btn{
+    border: 0;
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(243, 62, 16);
+    position: relative;
+    left: 10%;
+}
+
+input
+{
+    height: 30px;
+    width: 300px;
+}
+
+#table
+{
+    width: 700px;
+    height: 100px;
+}
